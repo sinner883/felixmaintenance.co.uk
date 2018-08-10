@@ -1,0 +1,133 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+*{
+  font-family:'Titillium Web', sans-serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+/* start max */
+.row-cont{
+  width: 66%;
+}
+
+.fot-position{
+  text-align: right;
+}
+
+.fot-name-col{
+  float: right;
+  padding: 2px;
+}
+
+.fot-line li{
+  display: inline;
+  padding: 2px 7px;
+}
+
+.base-background{
+  margin: 1em auto;
+}
+
+body{
+  background: #FDF2E9;
+}
+
+#add-col-horizontal p {
+  display: inline;
+  padding: 1em;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+#add-col-horizontal, .add-services {
+  text-align: center;
+}
+
+.add-services{
+  margin-top: 1.5em;
+}
+
+.horline{
+  height: 1px;
+  margin-bottom: 2em;
+}
+
+.horline
+{
+  background: repeating-linear-gradient(90deg, #FDF2E9, #009688, #FDF2E9);
+}
+
+/* end max */
+nav .brand-logo {
+  position: relative;
+  float: left;
+  height: 100%;
+}
+.brand-logo img {
+  height: 100%;
+  width: auto;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: rgba(6, 6, 6, 0.94);
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 490px){
+  .left,
+  .right,
+  .fot-line,
+  .fot-name-col1{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
